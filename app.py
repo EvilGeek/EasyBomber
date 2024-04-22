@@ -1,3 +1,4 @@
+#Code by @DiverseVariant on Telegram
 import json
 import requests
 import random
@@ -10,7 +11,7 @@ from flask import *
 urllib3.disable_warnings()
 
 app = Flask(__name__)
-app.secret_key = "WolfiexD"
+app.secret_key = "WolfiexD_or_DiverseVariant"
 
 running_sms_attacks = {}
 #result_sms_queues = {}
